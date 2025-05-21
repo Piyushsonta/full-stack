@@ -46,4 +46,4 @@ console.log(`Using port: ${PORT} from env: ${process.env.PORT}`);
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // Add this near the top of your main index.js or in a separate config file
-axios.defaults.baseURL = 'http://localhost:5001'; 
+axios.defaults.baseURL = 'https://full-stack-2zjs.onrender.com'; 

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:5001';
+axios.defaults.baseURL = 'https://full-stack-2zjs.onrender.com';
 
 const AuthContext = createContext();
 
